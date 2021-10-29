@@ -39,11 +39,13 @@ public class Program {
 		}
 
 		// Inserir um vendedor
-		System.out.println("\n=== TEST 4: seller Insert ===");
+		/*System.out.println("\n=== TEST 4: seller Insert ===");
 		Seller newSeller = new Seller(null, "Gaviria", "gaviria@gmail.com", new Date(), 5000.0, department);
 		sellerDao.insert(newSeller);
+		
 
 		System.out.println("Inserted! New id = " + newSeller.getId());
+		*/
 
 		// Update de um vendedor
 		System.out.println("\n=== TEST 5: seller Update ===");
@@ -53,7 +55,7 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Update complete!");
 		
-		// Update de um vendedor
+		// Deletar um vendedor
 		System.out.println("\n=== TEST 6: seller Delete ===");
 		System.out.println("Enter id for delete test: ");
 		int id = sc.nextInt();
